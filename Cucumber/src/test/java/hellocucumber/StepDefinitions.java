@@ -23,7 +23,10 @@ public class StepDefinitions {
     private WebDriverWait wait;
 
 
-    //postComment
+    /**
+     * student posts comment
+     */
+
     @Given("The student is on home page")
     public void openStudentHomePage()
     {
@@ -126,7 +129,9 @@ public class StepDefinitions {
     }
 
 
-    //delete forum
+    /**
+     * teacher deletes forum
+     */
     @Given("The teacher is on home page")
     public void openTeacherHomePage() {
         //open moodle
