@@ -160,7 +160,7 @@ public class StepDefinitions {
     @And("Teacher is on Edit Mode")
     public void changeToEditMode()
     {
-        //find Edit Mode radio button
+        //find Edit Mode radio button and click it
         driver.findElement(By.xpath("/html/body/div[2]/nav/div[2]/form/div/div/input")).click();
         try
         {
