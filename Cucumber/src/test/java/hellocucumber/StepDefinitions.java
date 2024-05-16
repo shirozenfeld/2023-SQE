@@ -1,9 +1,7 @@
 package hellocucumber;
-
 import graphql.Assert;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
-
 import net.bytebuddy.implementation.bytecode.Throw;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions.*;
@@ -14,7 +12,6 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -26,9 +23,7 @@ public class StepDefinitions {
     private WebDriverWait wait;
 
 
-    /**
-     * student posts a comment on forum
-     */
+    //postComment
     @Given("The student is on home page")
     public void openStudentHomePage()
     {
@@ -131,10 +126,7 @@ public class StepDefinitions {
     }
 
 
-    /**
-     * teacher deletes forum
-     */
-
+    //delete forum
     @Given("The teacher is on home page")
     public void openTeacherHomePage() {
         //open moodle
@@ -233,6 +225,3 @@ public class StepDefinitions {
 
     }
 }
-
-
-
