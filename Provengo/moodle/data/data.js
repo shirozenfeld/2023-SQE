@@ -1,3 +1,4 @@
+/* @provengo summon selenium */
 /*
  *  This is a good place to put common test data, project-wide constants, etc.
  */
