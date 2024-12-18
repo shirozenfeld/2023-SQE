@@ -7,6 +7,7 @@ In this assignment, we tested an open-source software called [Moodle](https://gi
 
 Moodle is a free and open-source learning management system, used for blended learning, distance education, flipped classroom and other online learning projects in schools, universities, workplaces and other sectors. 
 ![Demo](PROVENGO-gif.gif)
+
 [Download the demo video](PROVENGO-run.mp4)
 
 ## Installation
