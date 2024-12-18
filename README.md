@@ -6,6 +6,8 @@ This is a repository for the system-testing assignment of the Software Quality E
 In this assignment, we tested an open-source software called [Moodle](https://github.com/BGU-SE-Courses/2023-mbt-52-06).
 
 Moodle is a free and open-source learning management system, used for blended learning, distance education, flipped classroom and other online learning projects in schools, universities, workplaces and other sectors. 
+![Demo](PROVENGO-gif.gif)
+[Download the demo video](PROVENGO-run.mp4)
 
 ## Installation
 To use this project, follow these steps:
